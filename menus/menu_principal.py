@@ -6,9 +6,11 @@ from EJS.ej_4 import Ejercicio_4
 def menu_principal():
     while True:
         print("Menú Principal")
-        print("1)  Ejercicio 2")
-        print("2)  Ejercicio 3")
-        print("3)  Salir")
+        print("1)  Ejercicio 1")
+        print("2)  Ejercicio 2")
+        print("3)  Ejercicio 3")
+        print("4)  Ejercicio 4")
+        print("5)  Salir")
         op = int(input("Eliga opción: "))
         match(op):
             case 1:
@@ -23,7 +25,7 @@ def menu_principal():
             case 4:
                 test = Ejercicio_4()
                 test.code()
-            case 3:
+            case 5:
                 break
             case _:
                 print("Opción no válida")
